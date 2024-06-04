@@ -13,6 +13,7 @@ html{
     display: grid;
     margin-left: 1%;
     margin-right: 1%;
+    max-width: 1500px;
 }
 
 header{
@@ -97,52 +98,50 @@ p{
     display: flex;
     grid-column: 1;
     padding-top: 1%;
+    width: 90%;
 }
 
-
-/********** billede slider *********/
-.img_container{
+.img3{
     width: 60%;
+    opacity: 0.6;
+    margin-left: 1%;
     position: absolute;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    border: 10px soild #760dc1;
+    margin-top: 15%;
+    display: flex;
+    z-index: -1;
+}
+/********** billede slider *********/
+/* .img_box{
+    background-color: #3d1e6e;
+    padding: 1%;
     border-radius: 10px;
-    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0);
+    width: 100%;
 }
 
 .img_slider{
-    width: 100%;
+    width: 200%;
     display: flex;
-    animation: slide 20s infinite;
-}
+    gap: 3%;
+    margin-top: 4%;
+    animation: slide 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
 
-@keyframes slide{
+@keyframes slide {
     0%{
-        transform: translateX(0);
+    translate: 0%;        
     }
-    25%{
-        transform: translateX(0);
-    }
-    30%{
-        transform: translateX(-100%);
-    }
+
     50%{
-        transform: translateX(100%);
+        translate: 50%;
     }
-    55%{
-        transform: translateX(-200%);
-    }
-    75%{
-        transform: translateX(-200%);
-    }
-    80%{
-        transform: translateX(-300%);
-    }
+
     100%{
-        transform: translateX(-300%);
+        translate: 100%;
     }
 }
+ */
 /******** grid *********/
 .grid1_2{
     grid-template-columns: 1fr 1 2fr;
