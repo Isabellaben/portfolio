@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1662.84 651.49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #60c3e1;
+        stroke: #60c3e1;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+
+      .cls-2 {
+        fill: #2f2660;
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 86px;
+      }
+
+      .cls-3 {
+        letter-spacing: .12em;
+      }
+
+      .cls-4 {
+        letter-spacing: .12em;
+      }
+
+      .cls-5 {
+        letter-spacing: .07em;
+      }
+
+      .cls-6 {
+        letter-spacing: .11em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-1" d="M257.34,127.23S500.34-50.77,675.34,20.23s265,47,345,225-85,368-315,332-217,116-528,57c0,0-440-132,80-507Z"/>
+    <text class="cls-2" transform="translate(418.84 400.65)"><tspan class="cls-4" x="0" y="0">ISABEL</tspan><tspan class="cls-6" x="381.28" y="0">L</tspan><tspan class="cls-3" x="442.75" y="0">A </tspan><tspan class="cls-5" x="547.43" y="0">B</tspan><tspan class="cls-4" x="615.58" y="0">. PETERSEN</tspan></text>
+  </g>
+</svg>
