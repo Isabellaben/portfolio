@@ -13,7 +13,7 @@ html{
     display: grid;
     margin-left: 1%;
     margin-right: 1%;
-    max-width: 1500px;
+    max-width: 1200px;
 }
 
 header{
@@ -85,6 +85,18 @@ p{
     margin-left: 2%;
 }
 
+.top{
+    border-style: solid;
+    color: #341a5f;
+    padding: 2%;
+    border-radius: 10px;
+    border-color: #341a5f;
+    font-family: h1;
+    font-size: 15px;
+    margin-right: 2%;
+    grid-column: 8;
+    text-align: center;
+}
 
 
 /********** billeder *********/
@@ -110,38 +122,7 @@ p{
     display: flex;
     z-index: -1;
 }
-/********** billede slider *********/
-/* .img_box{
-    background-color: #3d1e6e;
-    padding: 1%;
-    border-radius: 10px;
-    width: 100%;
-}
 
-.img_slider{
-    width: 200%;
-    display: flex;
-    gap: 3%;
-    margin-top: 4%;
-    animation: slide 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-} 
-
-@keyframes slide {
-    0%{
-    translate: 0%;        
-    }
-
-    50%{
-        translate: 50%;
-    }
-
-    100%{
-        translate: 100%;
-    }
-}
- */
 /******** grid *********/
 .grid1_2{
     grid-template-columns: 1fr 1 2fr;
@@ -153,15 +134,17 @@ p{
     grid-template-columns: 1fr 1fr;
     margin-left: 2%;
     margin-right: 2%;
+    padding-bottom: 5%;
 }
 
 .grid2_1{
     display: grid;
     grid-template-columns: 2fr 1 1fr;
+    
 }
 
 .grid2{
     display: grid;
     grid-template-columns: 5fr;
-
+    padding-bottom: 5%;
 }

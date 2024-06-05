@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 447.86 447.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #6f26a8;
+        stroke-miterlimit: 10;
+        stroke-width: 40px;
+      }
+
+      .cls-2 {
+        fill: #6f26a8;
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 270.92px;
+        letter-spacing: .11em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-1" x="20" y="20" width="407.86" height="407.86" rx="98.97" ry="98.97"/>
+    <text class="cls-2" transform="translate(181.27 319.64)"><tspan x="0" y="0">f</tspan></text>
+  </g>
+</svg>

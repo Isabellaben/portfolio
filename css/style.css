@@ -95,7 +95,7 @@ main{
     margin-left: 32%;
 }
 
-.forside{
+#forside{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -117,6 +117,15 @@ div{
     margin-left: 50%;
     padding-top: 5%;
     cursor: pointer;
+}
+
+.socials{
+    width: 10%;
+}
+
+.grid3_1_1_1{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
 }
 
 /************ nr 2 del af forsiden *************/
