@@ -194,7 +194,7 @@ p{
     border-radius: 10px;
     min-width: 165px;
     padding: 1%;
-    margin-top: 4%;
+    margin-top: 3%;
     box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -206,7 +206,7 @@ p{
     text-decoration: none;
     display: block;
     text-align: left;
-    font-size: 25px;
+    font-size: 18px;
   }
   
   .dropdown-content a:hover {
