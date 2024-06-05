@@ -87,8 +87,8 @@ p{
     font-size: 17px;
     display: flex;
     margin-top: 0%;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 4%;
+    margin-left: 4%;
 }
 
 .top{
@@ -159,8 +159,8 @@ p{
     padding: 2%;
     background-color: rgb(231, 217, 250, 0.6);
     border-radius: 30px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 6%;
     margin-left: 3%;
     margin-right: 3%;
 
