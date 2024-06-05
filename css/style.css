@@ -4,7 +4,7 @@
 }
 
 html{
-    max-width: 1500px;
+    max-width: 1000px;
     background-image: url(../img/baggrund.svg);
     background-size: cover;
     grid-template-columns: fit-content;
@@ -29,13 +29,14 @@ main{
     position: fixed;
     z-index: 3;
     width: 100%;
+    max-width: 1000px;
 }
 
 
 ul{
     display: flex;
     list-style:none;
-    font-size: 30px;
+    font-size: 20px;
     font-family: text;
     gap: 7%;
     justify-content: right;
@@ -113,7 +114,6 @@ div{
 
 .copyright{
     display: flex;
-    cursor: pointer;
     justify-content: center;
     margin-top: 0%;
     font-size: 10px;
@@ -173,7 +173,7 @@ p{
  /********* drop down menu ********/
 
   .dropdown .dropbtn {
-    font-size: 30px;
+    font-size: 20px;
     border: none;
     outline: none;
     color: #341a5f;
