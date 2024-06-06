@@ -1,4 +1,4 @@
-//når siden er loadet skal vi gå til funktionen start
+/* //når siden er loadet skal vi gå til funktionen start
 window.addEventListener("load", start);
 
 
@@ -38,7 +38,7 @@ function repeat(){
 
       //lyt efter om der bliver trykket på pilen igen
       this.addEventListener("mousedown", pilned) ;
-  }
+  } */
 
 
 /********* burger menu til mobil site *******/
