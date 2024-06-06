@@ -184,7 +184,7 @@
             font-size: 30px;
             grid-row: 1;
             justify-content: center;
-            margin-left: 0%;
+            margin-left: 5%;
         }
         
         .box01{
@@ -207,9 +207,15 @@
         }
 
     .loop{
-        width: 70%;
+        width: 65%;
         margin-top: 10%;
+        margin-left: 10%;
             }
+
+    .navn{
+      padding-left: 10%;
+      width: 120%;
+    }
 
     .strøg3{
         width: 90%;
