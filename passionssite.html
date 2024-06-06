@@ -6,14 +6,15 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/projekter.css" />
+    <link rel="stylesheet" href="css/mobil.css" />
     <title>Grundlæggende indhold</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="normalheader">
         <ul>
           <li><a href="index.html">Forside</a></li>
-          <div class="dropdown">
+          <li class="dropdown">
             <button class="dropbtn">
               Projekter <i class="fa fa-caret-down"></i>
             </button>
@@ -24,9 +25,46 @@
               ><a href="passionssite.html">Grundlæggende indhold 1</a>
               <a href="virksomhedssite.html">Grundlæggende indhold 2</a>
             </div>
-          </div>
+          </li>
           <li><a href="ommig.html">Om mig</a></li>
         </ul>
+      </nav>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Forside</a>
+          </li>
+          <li class="nav-item">
+            <a href="grundlæggendeweb.html" class="nav-link"
+              >Grundlæggende web</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="emnesite.html" class="nav-link">Grundlæggende UX/UI</a>
+          </li>
+          <li class="nav-item">
+            <a href="spil.html" class="nav-link">Animation</a>
+          </li>
+          <li class="nav-item">
+            <a href="passionssite.html" class="nav-link"
+              >Grundlæggende indhold 1</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="virksomhedssite.html" class="nav-link"
+              >Grundlæggende indhold 2</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="ommig.html" class="nav-link">Om mig</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
     <main>
@@ -130,5 +168,6 @@
 
       <p class="copyright">&copy; Isabella B. Petersen</p>
     </footer>
+    <script src="js/js.js"></script>
   </body>
 </html>

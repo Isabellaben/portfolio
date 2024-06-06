@@ -3,6 +3,7 @@
     src: url(../fonts/Noteworthy-Lt.ttf);
 }
 
+
 html{
     max-width: 1000px;
     background-image: url(../img/baggrund.svg);
@@ -108,6 +109,11 @@ div{
     font-size: 10px;
 }
 
+.navbar{
+    display: none;
+}
+
+
 /************ nr 2 del af forsiden *************/
 
 .forside2{
@@ -186,7 +192,7 @@ p{
     border-radius: 10px;
     min-width: 165px;
     padding: 1%;
-    margin-top: 3%;
+    margin-top: 0%;
     box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -202,7 +208,7 @@ p{
   }
   
   .dropdown-content a:hover {
-    background-color: hsl(283%, 68%, 88%);
+    background-color: hsl(283, 68%, 88%);
     border-radius: 10px;
   }
   

@@ -1,0 +1,228 @@
+@media (max-width: 700px){
+    body{
+        display: grid;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .grid1_2{
+        grid-template-columns: 1frr;
+        display: grid;
+    }
+    
+    .grid1_1{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 5%;
+    }
+    
+    .grid2_1{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    
+    .grid2{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2%;
+        background-color: rgb(231, 217, 250, 0.6);
+        border-radius: 30px;
+        margin-top: 2%;
+        margin-bottom: 6%;
+    
+    }
+
+    .img1{
+        display: flex;
+        grid-column: 1;
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    .img2{
+        display: flex;
+        grid-column: 1;
+        padding-top: 1%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .img3{
+        width: 85%;
+        margin-top: 40%;
+    }
+
+    h1{
+        font-family: h1;
+        font-size: 35px;
+        grid-column: 1;
+        grid-row: 2;
+        color: #341a5f;
+        letter-spacing: 2px;
+        padding-left: 4%
+    }
+
+    h3{
+        font-family: h1;
+        font-size: 90px;
+        grid-column: 2;
+        grid-row: 1/4;
+        color: #17082f;
+        padding-left: 30px;
+    }
+
+    .normalheader{
+        display: none;
+    }
+
+    .btn{
+        font-size: 15px;
+        margin-left: 9%;
+    }
+
+    /******* burger menu ********/
+    li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      
+      /* Almindelig styling på .navbar */
+  
+      .navbar {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 8%;
+        margin-top: 5%;
+      }
+      
+      /* Hamburgeren laves gøres usynlig */
+      .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+      }
+      
+      .nav-link {
+        font-size: 20px;
+        color: #341a5f;
+      }
+      
+      .nav-link:hover {
+        color: rgb(115, 67, 143);
+      }
+    
+        .nav-menu {
+          position: fixed;
+          left: -150%;
+          top: 4rem;
+          flex-direction: column;
+          background-color: hsl(285, 50%, 97%);
+          width: 80%;
+          border-radius: 10px;
+          text-align: left;
+          margin-left: 0%;
+          margin-right: 6%;
+          transition: 0.5s;
+          
+        }
+      
+        .nav-menu.active {
+          left: 0;
+        }
+      
+        .nav-item {
+          margin: 5% 0;
+        }
+      
+        .hamburger {
+          display: block;
+          cursor: pointer;
+        }
+      
+        .hamburger.active .bar:nth-child(2) {
+          opacity: 0;
+        }
+      
+        .hamburger.active .bar:nth-child(1) {
+          translate: 0 8px;
+          rotate: 45deg;
+        }
+      
+        .hamburger.active .bar:nth-child(3) {
+          translate: 0 -8px;
+          rotate: -45deg;
+        }
+      
+        .ikon{
+            width: 6%;
+            padding: 1%;
+            margin-top: 0%;
+            padding-top: 0%;
+        }
+
+        /******** forsiden *******/
+        #strøg2{
+            width: 70%;
+            margin-left: 25%;
+            margin-top: 10%;
+        }
+
+        .forside2{
+            margin-top: 5%;
+            display: grid;
+            margin-bottom: 10%;
+        }
+
+        .forsideh1{
+            font-size: 30px;
+            grid-row: 1;
+            justify-content: center;
+            margin-left: 0%;
+        }
+        
+        .box01{
+            grid-row: 4;
+            margin-bottom: 0%;
+        }
+        
+        p{
+            line-height: 35px;
+        }
+
+        #pil{
+            display: none;
+        }
+
+        .navnwebsite{
+            width: 90%;
+            margin-top: 30%;
+            margin-left: -10%;
+        }
+
+    .loop{
+        width: 70%;
+        margin-top: 10%;
+            }
+
+    .strøg3{
+        width: 90%;
+    }
+
+    .portræt{
+        background-color: rgba(88, 18, 107, 0.4);
+        border-radius: 100px;
+        margin-top: 10%;
+        padding-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 70%;
+        margin-left: 12%;
+      }
+}

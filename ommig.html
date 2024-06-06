@@ -10,14 +10,15 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/projekter.css" />
+    <link rel="stylesheet" href="css/mobil.css" />
     <title>Om mig</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="normalheader">
         <ul>
           <li><a href="index.html">Forside</a></li>
-          <div class="dropdown">
+          <li class="dropdown">
             <button class="dropbtn">
               Projekter <i class="fa fa-caret-down"></i>
             </button>
@@ -28,9 +29,46 @@
               ><a href="passionssite.html">Grundlæggende indhold 1</a>
               <a href="virksomhedssite.html">Grundlæggende indhold 2</a>
             </div>
-          </div>
+          </li>
           <li><a href="ommig.html">Om mig</a></li>
         </ul>
+      </nav>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Forside</a>
+          </li>
+          <li class="nav-item">
+            <a href="grundlæggendeweb.html" class="nav-link"
+              >Grundlæggende web</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="emnesite.html" class="nav-link">Grundlæggende UX/UI</a>
+          </li>
+          <li class="nav-item">
+            <a href="spil.html" class="nav-link">Animation</a>
+          </li>
+          <li class="nav-item">
+            <a href="passionssite.html" class="nav-link"
+              >Grundlæggende indhold 1</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="virksomhedssite.html" class="nav-link"
+              >Grundlæggende indhold 2</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="ommig.html" class="nav-link">Om mig</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
     <main>
@@ -60,32 +98,19 @@
             <dl>
               <dd>Medlem af medie udvalget på Himmelev Gymnasium</dd>
               <dt>2019-2020</dt>
-              <dd>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Labore, harum.
-              </dd>
-              <dt>30403030</dt>
-              <dd>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, culpa.
-              </dd>
-              <dt>30303030</dt>
+              <dd>Multimedie design på KEA</dd>
+              <dt>2024-2026</dt>
             </dl>
           </div>
           <div>
             <dl>
-              <dd>Medlem af medie udvalget på Himmelev Gymnasium</dd>
-              <dt>2019-2020</dt>
-              <dd>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Labore, harum.
-              </dd>
-              <dt>30403030</dt>
               <dd>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Aspernatur, culpa.
               </dd>
               <dt>30303030</dt>
+              <dd>Medlem af medie udvalget på Himmelev Gymnasium</dd>
+              <dt>2019-2020</dt>
             </dl>
           </div>
         </section>
@@ -116,5 +141,6 @@
 
       <p class="copyright">&copy; Isabella B. Petersen</p>
     </footer>
+    <script src="js/js.js"></script>
   </body>
 </html>

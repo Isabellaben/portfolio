@@ -3,109 +3,174 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="img/favicon.ico"
-    />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/projekter.css" />
+    <link rel="stylesheet" href="css/mobil.css" />
     <title>Emnesite</title>
   </head>
   <body>
     <header>
-        <nav>
-            <ul>
-              <li><a href="index.html">Forside</a></li>
-              <div class="dropdown">
-                <button class="dropbtn">
-                  Projekter <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="grundlæggendeweb.html">Grundlæggende web</a
-                  ><a href="emnesite.html">Grundlæggende UX/UI</a>
-                  <a href="spil.html">Animation</a
-                  ><a href="passionssite.html">Grundlæggende indhold 1</a>
-                  <a href="virksomhedssite.html">Grundlæggende indhold 2</a>
-                </div>
-              </div>
-              <li><a href="ommig.html">Om mig</a></li>
-            </ul>
-          </nav>
+      <nav class="normalheader">
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li class="dropdown">
+            <button class="dropbtn">
+              Projekter <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="grundlæggendeweb.html">Grundlæggende web</a
+              ><a href="emnesite.html">Grundlæggende UX/UI</a>
+              <a href="spil.html">Animation</a
+              ><a href="passionssite.html">Grundlæggende indhold 1</a>
+              <a href="virksomhedssite.html">Grundlæggende indhold 2</a>
+            </div>
+          </li>
+          <li><a href="ommig.html">Om mig</a></li>
+        </ul>
+      </nav>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Forside</a>
+          </li>
+          <li class="nav-item">
+            <a href="grundlæggendeweb.html" class="nav-link"
+              >Grundlæggende web</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="emnesite.html" class="nav-link">Grundlæggende UX/UI</a>
+          </li>
+          <li class="nav-item">
+            <a href="spil.html" class="nav-link">Animation</a>
+          </li>
+          <li class="nav-item">
+            <a href="passionssite.html" class="nav-link"
+              >Grundlæggende indhold 1</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="virksomhedssite.html" class="nav-link"
+              >Grundlæggende indhold 2</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="ommig.html" class="nav-link">Om mig</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
     </header>
     <main>
       <section id="top">
-      <div class="overskrift">
-        <h1>Grundlæggende UX/UI</h1>
-        <h3 class="tal"><strong>03</strong></h3>
-        <img src="img/strøg2_2.svg" alt="maler strøg" class="img3">
-        <div class="btndiv">
-          <a href="http://isabellapetersen.dk/T3,%20emnesite/website/index.html" target="_blank" class="btn">Se siden her</a></div>
-      </div>
+        <div class="overskrift">
+          <h1>Grundlæggende UX/UI</h1>
+          <h3 class="tal"><strong>03</strong></h3>
+          <img src="img/strøg2_2.svg" alt="maler strøg" class="img3" />
+          <div class="btndiv">
+            <a
+              href="http://isabellapetersen.dk/T3,%20emnesite/website/index.html"
+              target="_blank"
+              class="btn"
+              >Se siden her</a
+            >
+          </div>
+        </div>
       </section>
       <section class="grid1_2">
         <section class="grid1_1">
           <div>
             <h2>Fokus</h2>
             <p>
-              I dette tema fokuserede jeg på at forstå wireframes og benytte dem
-              til at lave fungerede grids. Vi skulle også bruge media queries til et mobile site.
+              I tema 03 lå fokuset på at lære at bruge Figma, og generelt om at
+              have en god dokumenteret proces. Derudover skulle vi teste sitet
+              og sørge for at det hele fungerede i praksis.
             </p>
-          </div><div>
+          </div>
+          <div>
             <h2>Rolle</h2>
             <p>
-              Jeg lavede alt fra bunden. Sideløbende fik jeg vejledning og lavede relevante opgaver for at fremme min fortåelse og resultat. 
-            </p></div>
-          </section>
-        </div>
-        <img src="img/t2_wireframes.png" alt="wireframes" class="img1" />
+              Jeg var fotograf for mine billeder på sitet, og stod også for
+              tests og at ændrer på sitet, baseret på mine test resultater. Til
+              præsentationen lavede jeg et slide i Figma, for at demontrere min
+              proces.
+            </p>
+          </div>
+        </section>
+
+        <img src="img/prototypeemnesite.webp" alt="wireframes" class="img1" />
+      </section>
+      <div class="grid2">
+        <h2>Læring</h2>
+        <p>
+          I dette forløb lærte jeg at bruge Figma og diverse test, herunder
+          Lighthouse test, 5 sek test, BERT og ekspert test. Resultaterne af
+          disse lærte jeg at implementere og læne mig op af hvad mine
+          testpersoner havde af feedback.
+        </p>
       </div>
-    </section>
-    <div class="grid2">
-    <h2>Læring</h2>
-    <p>I dette forløb lærte jeg at bruge grids og layouts. Samtidig lærte jeg at lave en vandret navigationsbar og at style den med CSS. Siden er responsiv, hvilket er noget nyt jeg lærte i det her tema.</p>
-    </div>
       <section class="grid1_1">
-        <div><img src="img/t2_forside.png" alt="forside på t2 siden" class="img2"></div>
+        <div>
+          <img
+            src="img/emnesiteforside.webp"
+            alt="forside på t3 siden"
+            class="img2"
+          />
+        </div>
         <section class="grid1_1">
           <div>
             <h2>Løsning</h2>
             <p>
-              Løsningen findes i toppen af denne side under overskriften. Baggrunden er lilla, da det er min yndlingsfarve og det var sjovt at eksperimentere med farver som baggrund.
+              Løsningen kan ses i toppen af denne side under overskriften. Det
+              endte med et site op cocktails og opskrifterne hertil. Sitet har
+              også en "blog" side, hvor brugerne kan se mig som afsender.
             </p>
-          </div><div>
+          </div>
+          <div>
             <h2>Proces</h2>
             <p>
-              Processen var god og jeg arbejdede meget med wireframes og layouts. Det var vigtigt at sitet blev opbygget rigtigt, så det var størstedelen af min proces.
-            </p></div>
+              Jeg startede med at brainstorme og lave både mindmap, moodboard og
+              styletile. Derefter wireframes og prototype, hvorefter jeg
+              startede med kodningen.
+            </p>
+          </div>
         </section>
       </section>
-      <div >
-      <a href="#top" class="top">Gå til toppen</a>
+      <div>
+        <a href="#top" class="top">Gå til toppen</a>
       </div>
     </main>
-    <footer> <section class="socials">
-      <div class="ikon">
-        <a
-          href="https://www.instagram.com/itsbellapetersen?igsh=MWxsOXVxNTQxeThoYw%3D%3D&utm_source=qr"
-          target="_blank"
-          ><img src="img/ig.svg" alt="Instagram"
-        /></a>
-      </div>
-      <div class="ikon">
-        <a href="https://www.facebook.com/bella.petersen.9083" target="_blank"
-          ><img src="img/fb.svg" alt="Facebook"
-        /></a>
-      </div>
-      <div class="ikon">
-        <a
-          href="https://www.linkedin.com/in/isabella-b-petersen-4319b8253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-          target="_blank"
-          ><img src="img/in.svg" alt="LinkedIn"
-        /></a>
-      </div>
-    </section>
+    <footer>
+      <section class="socials">
+        <div class="ikon">
+          <a
+            href="https://www.instagram.com/itsbellapetersen?igsh=MWxsOXVxNTQxeThoYw%3D%3D&utm_source=qr"
+            target="_blank"
+            ><img src="img/ig.svg" alt="Instagram"
+          /></a>
+        </div>
+        <div class="ikon">
+          <a href="https://www.facebook.com/bella.petersen.9083" target="_blank"
+            ><img src="img/fb.svg" alt="Facebook"
+          /></a>
+        </div>
+        <div class="ikon">
+          <a
+            href="https://www.linkedin.com/in/isabella-b-petersen-4319b8253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            target="_blank"
+            ><img src="img/in.svg" alt="LinkedIn"
+          /></a>
+        </div>
+      </section>
 
-    <p class="copyright">&copy; Isabella B. Petersen</p></footer>
+      <p class="copyright">&copy; Isabella B. Petersen</p>
+    </footer>
+    <script src="js/js.js"></script>
   </body>
 </html>
