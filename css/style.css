@@ -14,11 +14,6 @@ html{
 
 body{
     margin: 1em;
-    /*
-    display: grid;
-    background-color: rgb(211, 193, 217, 0.3);
-    margin-left: 2%;
-    margin-right: 2%;*/
 } 
 
 main{
@@ -85,31 +80,25 @@ div{
     display: grid;
 }
 
-#knap{
-    grid-row: 66;
-    width: 54%;
-    grid-column: span2/-1;
-    cursor: pointer;
-}
+
 
 #pil
 {
     width: 2%;
     margin-left: 50%;
-    padding-top: 5%;
     cursor: pointer;
+
 }
 
 .socials{
     display: flex;
     cursor: pointer;
     justify-content: right;
-    gap: 2%;
 }
 
 .ikon{
     margin: 1%;
-    width: 5%;
+    width: 3%;
 }
 
 .copyright{
@@ -128,14 +117,15 @@ div{
 }
 
 #strøg2{
-    width: 70%;
+    width: 55%;
     opacity: 0.6;
     margin-left: 20%;
     position: absolute;
     margin-top: 1%;
     display: flex;
     z-index: -1;
-    max-width: 700px;
+    max-width: 600px;
+    padding-top: 2%;
 }
 
 .forsideh1{
@@ -150,7 +140,7 @@ div{
 }
 
 .box01{
-    background-color: rgb(231, 250, 255);
+    background-color: rgb(231, 250, 255, 0.8);
     padding: 1em;
     border-radius: 20px;
     grid-row: 3/5;
@@ -169,6 +159,7 @@ p{
 
  .rotate{
     rotate: 180deg;
+   /*  padding-bottom: 25%; */
  }
 
  /********* drop down menu ********/
@@ -211,10 +202,50 @@ p{
   }
   
   .dropdown-content a:hover {
-    background-color: hsl(283, 68%, 88%);
+    background-color: hsl(283%, 68%, 88%);
     border-radius: 10px;
   }
   
   .dropdown:hover .dropdown-content {
     display: block;
   } 
+
+  /******* portræt *******/
+  .portræt{
+    background-color: rgba(88, 18, 107, 0.4);
+    border-radius: 100px;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 80%;
+    margin-left: 5%;
+  }
+
+  ol{
+    list-style: none;
+}
+
+dl{
+      font-family: text;
+  }
+
+  dt{
+   text-align: right;
+    font-size: 15px;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+  }
+
+  .strøg3{
+    width: 60%;
+    opacity: 0.6;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: 5%;
+    display: flex;
+    z-index: -1;
+    max-width: 700px;
+    max-height: 500px;
+  }
