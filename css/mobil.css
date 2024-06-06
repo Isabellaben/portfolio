@@ -164,7 +164,7 @@
             width: 6%;
             padding: 1%;
             margin-top: 0%;
-            padding-top: 0%;
+            padding-top: 40%;
         }
 
         /******** forsiden *******/
@@ -209,12 +209,12 @@
     .loop{
         width: 65%;
         margin-top: 10%;
-        margin-left: 10%;
+        margin-left: 7%;
             }
 
     .navn{
-      padding-left: 10%;
-      width: 120%;
+      padding-left: 12%;
+      width: 90%;
     }
 
     .strøg3{
