@@ -8,7 +8,6 @@ html{
     max-width: 1000px;
     background-image: url(../img/baggrund.svg);
     background-size: cover;
-    grid-template-columns: fit-content;
     display: grid;
     z-index: -3;
 }
@@ -37,6 +36,7 @@ ul{
     gap: 7%;
     justify-content: right;
     margin-right: 3%;
+    margin-top: -5%;
 }
 
 a{
@@ -137,7 +137,7 @@ div{
     padding-top: 2%;
 }
 
-.forsideh1{
+/* .forsideh1{
     font-size: 60px;
     font-family: text;
     color: #341a5f;
@@ -155,7 +155,7 @@ div{
     grid-row: 3/5;
     margin-right: 10%;
     margin-left: 10%;
-}
+} */
 
 p{
     font-family: text;
@@ -166,11 +166,10 @@ p{
 /****** klasser til java ******/
 
 
- .rotate{
+/*  .rotate{
     rotate: 180deg;
-   /*  padding-bottom: 25%; */
  }
-
+ */
  /********* drop down menu ********/
 
   .dropdown .dropbtn {
@@ -224,9 +223,10 @@ p{
     background-color: rgba(88, 18, 107, 0.4);
     border-radius: 100px;
     margin-top: 10%;
-    padding-top: 5%;
+    padding-top: 20%;
+    padding-bottom: 0%;
     padding-left: 3%;
-    padding-right: 3%;
+    padding-right: 0%;
     width: 80%;
     margin-left: 5%;
   }
@@ -257,4 +257,10 @@ dl{
     z-index: -1;
     max-width: 700px;
     max-height: 500px;
+  }
+
+  .nav-logo{
+    width: 6%;
+    display: flex;
+    padding: 5px;
   }

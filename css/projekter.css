@@ -139,7 +139,6 @@ p{
 
 /******** grid *********/
 .grid1_2{
-    grid-template-columns: 1fr 1 2fr;
     display: grid;
 }
 
@@ -151,11 +150,6 @@ p{
     padding-bottom: 5%;
 }
 
-.grid2_1{
-    display: grid;
-    grid-template-columns: 2fr 1 1fr;
-    
-}
 
 .grid2{
     display: grid;
