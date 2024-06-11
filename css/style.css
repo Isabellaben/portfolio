@@ -177,13 +177,13 @@ p{
   /******* portræt *******/
   .portræt{
     background-color: rgba(88, 18, 107, 0.4);
-    border-radius: 100px;
+    border-radius: 50px;
     margin-top: 10%;
     padding-top: 0%;
     padding-bottom: 0%;
     padding-left: 0%;
     padding-right: -10%;
-    width: 80%;
+    width: 60%;
     margin-left: 10%;   }
 
   ol{
