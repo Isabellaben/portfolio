@@ -56,6 +56,10 @@ main{
     margin-top: 5%;
 }
 
+
+img{
+    width: 100%;    }
+
 /******* klasser ***********/
 .loop{
     width: 70%;
