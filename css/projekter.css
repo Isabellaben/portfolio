@@ -90,8 +90,8 @@ p{
     font-size: 17px;
     display: flex;
     margin-top: 0%;
-    margin-right: 4%;
-    margin-left: 4%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .top{
@@ -120,9 +120,10 @@ p{
 .img2{
     display: flex;
     grid-column: 1;
-    padding-top: 1%;
-    width: 100%;
+    padding-top: 6%;
+    width: 90%;
     border-radius: 10px;
+
 }
 
 .img3{
@@ -139,17 +140,14 @@ p{
 
 /******** grid *********/
 .grid1_2{
-    display: grid;
-}
+    display: grid;  }
 
 .grid1_1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 2%;
+    margin-left: 1%;
     margin-right: 2%;
-    padding-bottom: 5%;
-}
-
+    padding-bottom: 5%; }
 
 .grid2{
     display: grid;
@@ -160,8 +158,6 @@ p{
     margin-top: 2%;
     margin-bottom: 6%;
     margin-left: 10%;
-    margin-right: 10%;
-
-}
+    margin-right: 10%;  }
 
 

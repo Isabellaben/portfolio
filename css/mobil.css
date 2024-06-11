@@ -57,7 +57,7 @@
         font-family: h1;
         font-size: 35px;
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 1;
         color: #341a5f;
         letter-spacing: 2px;
         padding-left: 4%
@@ -65,11 +65,11 @@
 
     h3{
         font-family: h1;
-        font-size: 90px;
+        font-size: 70px;
         grid-column: 2;
-        grid-row: 1/4;
+        grid-row: 1;
         color: #17082f;
-        padding-left: 30px;
+        padding-left: 0px;
     }
 
     .normalheader{
@@ -231,4 +231,7 @@
         width: 70%;
         margin-left: 12%;
       }
+
+      .nav-logo{
+        width: 5%;  }
 }
