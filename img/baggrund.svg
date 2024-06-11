@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3225.55 7042.47">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2340.67 7042.47">
   <defs>
     <style>
       .cls-1 {
@@ -7,7 +7,7 @@
         stroke-width: 0px;
       }
     </style>
-    <linearGradient id="linear-gradient" x1="1612.77" y1="-11.56" x2="1612.77" y2="7030.91" gradientTransform="translate(0 7030.91) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="1170.34" y1="1091.56" x2="1170.34" y2="-5950.91" gradientTransform="translate(0 5950.91)" gradientUnits="userSpaceOnUse">
       <stop offset=".09" stop-color="#ccfeff"/>
       <stop offset=".43" stop-color="#ccfcff"/>
       <stop offset=".55" stop-color="#cff5ff"/>
@@ -18,8 +18,10 @@
     </linearGradient>
   </defs>
   <g id="Layer_2-2" data-name="Layer 2">
-    <g id="Layer_1-2" data-name="Layer 1-2">
-      <rect class="cls-1" width="3225.55" height="7042.47"/>
+    <g id="Layer_2-2" data-name="Layer 2-2">
+      <g id="Layer_1-2" data-name="Layer 1-2">
+        <rect class="cls-1" width="2340.67" height="7042.47"/>
+      </g>
     </g>
   </g>
 </svg>
