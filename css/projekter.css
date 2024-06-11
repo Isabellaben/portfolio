@@ -59,7 +59,7 @@ h3{
 .overskrift{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-top: -10%;   }
+    margin-top: -15%;   }
 
 h2{
     font-family: h1;
@@ -130,9 +130,9 @@ p{
     display: grid;
     grid-template-columns: 5fr;
     padding: 2%;
-    background-color: rgba(214, 188, 249, 0.7);
+    background-color: rgba(236, 225, 249, 0.7);
     border-radius: 30px;
-    margin-top: 2%;
+    margin-top: 6%;
     margin-bottom: 6%;
     margin-left: 10%;
     margin-right: 10%;  }
